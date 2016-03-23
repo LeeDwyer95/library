@@ -4,8 +4,9 @@ class Student {
 String name
 String email
 String studentid
-String course
+Course course
 	
+static hasMany=[books:Book]
 String toString(){
 "$name, $studentid, $email"
 }
