@@ -15,8 +15,13 @@ class LibrarianSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void toString() {
+        when:"A Librarian has a name and an email"
+
+def librarian=new Librarian(name: 'Anne',
+		      email: 'Anne_R@hotmail.co.uk')
+
+then:"the toString method will merge them."
+librarian.toString()=='Anne, Anne_R@hotmail.co.uk'
     }
 }
