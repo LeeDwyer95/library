@@ -3,10 +3,10 @@ package com.library
 class Library {
 String location
 String openingHours
-String book
-String student
-String librarian
 
+
+
+static hasMany=[students:Student, books:Book, librarians:Librarian]
 
 String toString(){
 "$location, $openingHours"
@@ -14,8 +14,6 @@ String toString(){
     static constraints = {
 	location()
 	openingHours()
-	book()
-	student()
-	librarian()
+	
     }
 }

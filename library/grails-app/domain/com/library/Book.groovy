@@ -6,7 +6,10 @@ String author
 String isbn
 Date dateBorrowed
 Date returnDate
-String student
+
+static hasMany=[students:Student]
+
+static belongsTo=Student
 
 String toString(){
 "$title, $author, $isbn"
@@ -18,6 +21,6 @@ String toString(){
 	isbn maxSize:13
 	dateBorrowed()
 	returnDate()
-	student()
+	
     }
 }

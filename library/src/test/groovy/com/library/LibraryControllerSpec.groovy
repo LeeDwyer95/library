@@ -15,8 +15,8 @@ class LibraryControllerSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+     void "test something"() {
+       //code omitted
     }
+    
 }
