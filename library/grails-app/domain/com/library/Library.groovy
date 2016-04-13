@@ -15,5 +15,6 @@ String toString(){
 	location()
 	openingHours()
 	
+	
     }
 }

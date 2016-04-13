@@ -7,6 +7,7 @@ String userName
 String password
 String telephone
 
+
 String toString(){
 	"$name, $email"
 }
@@ -16,5 +17,6 @@ String toString(){
 	userName()
 	password()
 	telephone()
+	
     }
 }
