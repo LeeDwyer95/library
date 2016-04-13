@@ -7,6 +7,7 @@ String tutor
 String department
 String description
 
+static hasMany=[students:Student]
 String toString(){
 "$title, $code, $department"
 }
